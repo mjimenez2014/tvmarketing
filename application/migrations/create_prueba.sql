@@ -1,0 +1,8 @@
+CREATE TABLE `prueba` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nombre` VARCHAR(255) DEFAULT NULL, 
+  `edad` INT DEFAULT NULL, 
+  `created_at` DATETIME NOT NULL,
+  `updated_at` DATETIME DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);

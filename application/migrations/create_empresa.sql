@@ -1,0 +1,8 @@
+CREATE TABLE `empresa` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `rut` VARCHAR(255) DEFAULT NULL, 
+  `rzsocial` VARCHAR(255) DEFAULT NULL, 
+  `created_at` DATETIME NOT NULL,
+  `updated_at` DATETIME DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);
